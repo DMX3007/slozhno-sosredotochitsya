@@ -3,3 +3,27 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
+
+.header {}
+
+.decorated-zone {}
+
+.header__theme-menu {}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.header__theme-menu-item {}
+
+.header__theme-menu-button {}
+
+.header__theme-menu-button_type_light {}
+
+.header__theme-menu-button_active {}
+
+.header__theme-menu-button_type_auto {}
+
+.header__theme-menu-button_type_dark {}
