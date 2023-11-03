@@ -2,9 +2,16 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.header {}
+.header {
+  /* display: grid; */
+
+}
 
 .decorated-zone {}
 
@@ -18,7 +25,9 @@
 
 .header__theme-menu-item {}
 
-.header__theme-menu-button {}
+.header__theme-menu-button {
+  color: var(--shadow-color);
+}
 
 .header__theme-menu-button_type_light {}
 
@@ -27,3 +36,15 @@
 .header__theme-menu-button_type_auto {}
 
 .header__theme-menu-button_type_dark {}
+
+.hero-section {}
+
+.hero-section__title {
+  color: var(--secondary-color);
+  text-shadow: 4px 4px 0 var(--shadow-color);
+  font-size: var(--title-size);
+}
+
+.hero-section__subtext {
+  background-color: var(--shadow-color);
+}
