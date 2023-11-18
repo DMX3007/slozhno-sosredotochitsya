@@ -4,12 +4,13 @@
   переключая тему
 */
 :root {
-  --background-color: #000028;
-  --p-bg-color: #FF0070;
-  --secondary-color: #DB00FF;
+  --title-text-color: #000028;
+  --primary-color: #FF0070;
   --shadow-color: #FF0070;
-  --font-color: #F1B2CE;
-
+  --decor-color: #FF0070;
+  --secondary-color: #DB00FF;
+  --article-text-color: #F1B2CE;
+  --background-image: url(../images/cover-image-dark.png)
 }
 
 .page.theme_dark {
