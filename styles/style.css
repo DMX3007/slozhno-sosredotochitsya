@@ -253,8 +253,6 @@
 
   @media (min-width: 768px) {
     max-width: 228px;
-    /* tablet */
-    /* min-width: 310px;  table off*/
   }
 
   @media (min-width:1024px) {
@@ -268,8 +266,11 @@
 }
 
 .additional {
-  /* margin-left: 7px; */
   grid-column-end: span 2;
+
+  @media (min-width: 768px) {
+    margin-left: 7px;
+  }
 }
 
 .content__article {
@@ -282,7 +283,6 @@
     flex-direction: column;
     gap: 10px;
   }
-
 }
 
 .content__section:nth-child(odd) .content__article {
@@ -300,7 +300,6 @@
 .content__section:nth-child(even) .content__article {
   @media (min-width: 768px) {
     margin-left: 0;
-
   }
 }
 
