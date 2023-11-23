@@ -97,7 +97,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid rgba(255, 0, 112, 0.40);
+  outline: 1px solid var(--button-outline);
   cursor: pointer;
 }
 
@@ -201,7 +201,7 @@
   outline: 1px solid var(--article-text-color);
 }
 
-.content__article-heading--small {
+.content__article-heading-small {
   color: #000028;
   font-family: IBM Plex Mono, sans-serif;
   font-weight: 400;
@@ -241,7 +241,6 @@
 .images {
   max-width: 100%;
   object-fit: cover;
-  block-size: 100%;
 }
 
 .images-sunset {
@@ -375,6 +374,10 @@
     padding-top: 10px;
   }
 
+  .images {
+    block-size: 100%;
+  }
+
   .footer {
     block-size: 1024px;
   }
@@ -444,8 +447,3 @@
     block-size: 99%;
   }
 }
-
-/* не могу повторить ошибку с размером 
-картинок в разрешении 375 
-у меня все нормально отражается 
-https://ru.paste.pics/PWYC0 */
